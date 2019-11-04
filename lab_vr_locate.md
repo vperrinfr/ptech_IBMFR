@@ -40,7 +40,13 @@ A droite, écrivez le nom de la classe identifiée dans notre cas `LEGO` puis cl
 6. Vous pouvez continuer sur environ une dizaine de photos.
 
 7. Vous pouvez maintenant entraîner le modèle pour voir la performance de votre entrainement. Cliquez "Train Model".
+Cliquez "here" sur tester la performance de votre modèle, via l'onglet **Test**.  
 
-8. Tester la performance de votre modèle, via l'onglet **Test**.
+![test](/images/test.png)
 
-6. Bravo vous avez crée votre premier modèle de reconnaissance d'objet.
+8. Le travail d'annotation est fastidieux, la solution fournit une fonctionnalité d'auto-annotation.
+Cliquez sur une image non annotée et cliquez sur "Auto Label". La solution va alors vous proposer des annotations.
+
+![test](/images/autolabel.png)
+
+9. Bravo vous avez crée votre premier modèle de détection d'objet. Cela peut vous saisir par exemple à compter des objets dans une image.
