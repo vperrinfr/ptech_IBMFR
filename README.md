@@ -14,8 +14,9 @@
 
 ### Labs 
 - [Watson Assistant S1](lab_WA.md)
-- [Visual Recognition S4](lab_VR.md)
-- [Introduction à Nodered ](welcome_nodered.md)
+- [Visual Recognition - Classification S4](lab_VR.md)
+- [Visual Recognition - Object Detection S4](lab_vr_locate.md)
+- [Introduction à Nodered](welcome_nodered.md)
 - [Montage du TJBot](tjbot.md)
 - [Introduction aux noeuds Watson pour le TJBot](tjbot_nodes.md)
 - [Comment récupérer les clés API des services Watson](authentification.md)
