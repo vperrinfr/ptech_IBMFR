@@ -20,16 +20,27 @@ Maintenant, Imaginez vous souhaitiez localiser dans une image des personnages Le
 Nous allons maintenant créer un nouveau modèle de détection d'objet pour apprendre à la solution à détecter les objets de votre choix..
 
 ### Entrainement du modèle
-1. Dans l'interface de Watson Studio, dans la page de présentation de l'instance Visual Recognition, cliquez sur **Créer un modèle** dans la zone "Classify Images".
+1. Dans l'interface de Watson Studio, dans la page de présentation de l'instance Visual Recognition, cliquez sur **Créer un modèle** dans la zone "Detect Objects".
 
-![new project](/images/new-project.jpg)
+![new project](/images/objects.PNG)
 
-2. Glissez déposez les fichiers `hdmi_male.zip` `usb_male.zip`,` thunderbolt_male.zip` et `vga_male.zip` dans le volet de données.
+2. Glissez déposez les fichiers `lego_train_2.zip` et `lego_train_3.zip` dans le volet de données.
 
 3. Une fois les fichiers téléchargés, sélectionnez **Ajouter au modèle/Add to Model** dans le menu situé en regard de chaque fichier, puis cliquez sur ** Modèle de train **.
 
-4. Maintenant que vous avez publié l'ensemble des images correspondant aux objets que vous souhaitez reconnaitre, vous pouvez entrainer le modèle.
+![new project](/images/lego_interface.PNG)
 
-5. Vous pouvez maintenant tester la performance de votre modèle, via l'onglet **Test**.
+4. Maintenant que vous avez publié l'ensemble des images, vous pouvez apprendre à la solution à localiser dans l'image les personnages Lego.
+
+5. Cliquez sur une première image, puis cliquez sur "Add Objects", créez un rectangle autour d'un personnage. 
+A droite, écrivez le nom de la classe identifiée dans notre cas `LEGO` puis cliquez sur "Add". Vous pouvez saisir d'autres personnages présents sur l'image puis cliquez sur "Done". Vous venez dapprendre sur une première image à localiser des personnages LEGO.
+
+![entrainement](/images/entrainement.PNG)
+
+6. Vous pouvez continuer sur environ une dizaine de photos.
+
+7. Vous pouvez maintenant entraîner le modèle pour voir la performance de votre entrainement. Cliquez "Train Model".
+
+8. Tester la performance de votre modèle, via l'onglet **Test**.
 
 6. Bravo vous avez crée votre premier modèle de reconnaissance d'objet.
