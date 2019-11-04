@@ -11,7 +11,7 @@ Maintenant, Imaginez vous souhaitiez localiser dans une image des personnages Le
 1. Une fois authentifié, cliquez sur `Catalog` dans la barre supérieure de l'écran
 2. Recherchez `Visual Recognition`
 5. Cliquez `Créer` en mode Standard
-6. Puis, cliquez sur `Lancer Watson Studio`
+6. Puis, cliquez sur `Lancer Watson Studio` ou `Créer un modèle personnalisé`
 
 ![Lancer Watson Studio](/images/launch.jpg)
 
