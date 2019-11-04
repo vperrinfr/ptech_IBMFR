@@ -1,4 +1,4 @@
-# Reconnaissance visuelle 
+# Reconnaissance visuelle - Classification
 
 Imaginez que vous soyez un technicien pour une compagnie de réseau informatique et que vous souhaitiez identifier les différents types de connectique à votre disposition. 
 
