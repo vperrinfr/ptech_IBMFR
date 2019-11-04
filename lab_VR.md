@@ -39,7 +39,7 @@ Nous allons maintenant créer un nouveau modèle de reconnaissance d'objet pour 
 ### Entrainement du modèle
 1. Dans l'interface de Watson Studio, dans la page de présentation de l'instance Visual Recognition, cliquez sur **Créer un modèle** dans la zone "Classify Images".
 
-![new project](/images/new-project.jpg)
+![new project](/images/classify.png)
 
 2. Glissez déposez les fichiers `hdmi_male.zip` `usb_male.zip`,` thunderbolt_male.zip` et `vga_male.zip` dans le volet de données.
 
