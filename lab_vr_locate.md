@@ -4,7 +4,7 @@ Maintenant, Imaginez vous souhaitiez localiser dans une image des personnages Le
 
 ### Avant de commencer
 
-1. Téléchargement les images d'entrainement [lien](https://github.com/watson-developer-cloud/visual-recognition-coreml/tree/master/Training%20Images)
+1. Téléchargement les images d'entrainement [lien](https://github.com/vperrinfr/ptech_IBMFR/blob/master/lego_train_2.zip) [lien](https://github.com/vperrinfr/ptech_IBMFR/blob/master/lego_train_3.zip)
 2. Aller ensuite à l'adresse https://console.bluemix.net/ et identifiez vous avec votre compte.
 
 ### Création d'une instance IBM Watson Visual Recognition ou utilisation de l'instance déjà créée.
