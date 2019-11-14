@@ -33,7 +33,7 @@ Vous pouvez voir ici l'interface utilisateur de Node-RED. Les blocs colorés à 
 6. Cherchez le nœud `Function` dans la colonne de droite.
 7. Ajoutez un nœud `Function`, ouvrez le et ajoutez le texte suivant à la première ligne de la fonction: `msg.payload += " World";`. Cela ajoutera ' World' à la chaine de caractères.
 
-La fonction complète devrait ressembler à ceci: ![HelloWorld](images/complete_hw_func.png)
+La fonction complète devrait ressembler à ceci: ![HelloWorld](images/complete_hw_function.png)
 
 7. Ajoutez un nœud `Debug`.
 8. Câblez le nœud `Injecter` au nœud `Function` et le nœud de fonction au nœud `Debug`. La plupart des nœuds ont un cercle gris à gauche, leur port d'entrée, et à droite, leur port de sortie. Un clic gauche sur la sortie et en le faisant glisser vers le port d'entrée du nœud suivant connecte les deux.
