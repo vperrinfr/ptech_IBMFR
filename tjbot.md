@@ -57,6 +57,10 @@ Passez les fils à travers le petit cercle dans le support du milieu afin qu’i
 
 ![image](images/img8.jpg)
 
+Il vous faut aussi faire le cablage, comme montré sur le schéma ci-dessous.
+
+![image](images/carte.jpg)
+
 Nous avons presque fini! Les dernières étapes consistent à assembler le bras (arm) et la tête (Head) de TJBot. 
 
 ![image](images/img10.jpg)
