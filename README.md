@@ -10,7 +10,7 @@
 - [Photos des impressions](photos.md)
 
 ### Cours 
-- [Cours](https://ibm.box.com/s/fwy62v4ooxcvpcz1jnwz0nm51gnxfmnc)
+- [Cours](https://ibm.box.com/s/fwy62v4ooxcvpcz1jnwz0nm51gnxfmnc) (Accès sur demande)
 
 ### Labs 
 - [Watson Assistant S1](lab_WA.md)
