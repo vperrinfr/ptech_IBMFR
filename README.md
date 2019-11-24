@@ -23,8 +23,8 @@
 
 ## Taches globales à réaliser
 
-- [ ] Finaliser les impressions
-- [ ] Déployer Raspbian sur les Raspberry
+- [X] Finaliser les impressions
+- [X] Déployer Raspbian sur les Raspberry
 ...
 
 
