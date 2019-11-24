@@ -2,10 +2,13 @@
 
 # Cursus Introduction à l'IA et à IBM Watson pour PTECH
 
+Ce cours a vocation à faire découvrir l'intelligence artificielle aux lycéens français au travers du programme [PTech](https://www.ibm.com/thought-leadership/ptech/index.html). Il existe aujourd'hui 200 écoles P-TECH avec plus de 100 000 élèves dans 18 pays.
+
 ## Contenu pour le cours
 
 ### Logistique 
 - [Planning](planning.md)
+- [Fichiers de conception des TJBots pour impression 3D ou découpage Laser](https://ibmtjbot.github.io/#gettj)
 - [TJBOT Print](print.md)
 - [Photos des impressions](photos.md)
 
@@ -27,9 +30,9 @@
 - [X] Déployer Raspbian sur les Raspberry
 ...
 
+# Concepteurs du cours
+@hmatheisen et @vperrinfr - IBM
 
 # License
 
 Ce cours est licencié sous la licence Apache v2. Les contributions sont soumises à la [Developer Certificate of Origin, Version 1.1](https://developercertificate.org/) and the [Apache License, Version 2](https://www.apache.org/licenses/LICENSE-2.0.txt).
-
-
