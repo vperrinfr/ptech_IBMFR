@@ -19,9 +19,13 @@ Chaque test est **interactif** et il vous demandera si le TJBot a effectué ou n
 Si vous devez tester un composant matériel spécifique, vous pouvez exécuter chaque script de test séparément.
 
 `cd ~/Desktop/tjbot/bootstrap/tests`
+
 `sudo node test.camera.js`
+
 `sudo node test.led.js`
+
 `sudo node test.servo.js`
+
 `sudo node test.speaker.js`
 
 Si tous les tests fonctionnent, votre TJBOT est opérationnel. **BRAVO**
