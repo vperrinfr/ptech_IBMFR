@@ -64,3 +64,9 @@ Il vous faut aussi faire le cablage, comme montré sur le schéma ci-dessous.
 Nous avons presque fini! Les dernières étapes consistent à assembler le bras (arm) et la tête (Head) de TJBot. 
 
 ![image](images/img10.jpg)
+
+# Test du TJBot
+
+Maintenant, je vous propose de tester le TJBOT
+Il vous faut brancher le clavier et souris USB, et le cable VGA sur l'adaptateur HMDI/VGA.
+![Test du TJBOT](https://github.com/vperrinfr/ptech_IBMFR/blob/master/test_TJBot.md)
