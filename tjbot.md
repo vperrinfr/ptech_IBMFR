@@ -67,7 +67,7 @@ Nous avons presque fini! Les dernières étapes consistent à assembler le bras 
 
 # Test du TJBot
 
-Maintenant, je vous propose de tester le TJBOT
+Maintenant, je vous propose de tester le TJBOT.
 Il vous faut brancher le clavier et souris USB, et le cable VGA sur l'adaptateur HMDI/VGA.
 
 [Test du TJBOT](https://github.com/vperrinfr/ptech_IBMFR/blob/master/test_TJBot.md)
