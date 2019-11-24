@@ -9,33 +9,35 @@
 ## 01/10 - Assistant
 
   - Créer un service Watson Assistant
-  - Créer son propre Chatbot
-  - Intégration TJBot
+  - Atelier Chatbot
+  
 
-## 15/10 - Restitution
+## 15/10 - Atelier pratique
+  - Créer son propre Chatbot
+  - Restitution
 
 ### VACANCES
 
 ## 12/11 - Visual Reco
 
   - Créer un service de Visual Recognition
-  - Utiliser classifier par défaut
-  - Créer son propre classifier
+  - Utiliser le classificateur d'images par défaut
+  - Créer son propre modèle de classification d'images
+  - Créer son propre modèle de détection d'objet
 
 ## 26/11 - TJBot
 
-  - Montage
+  - Montage du TJbot
   - Raspberry (déjà un peu setup)
 
 ## 10/12 - NodeRED
 
+  - Introduction à la programmation
   - Introduction à NodeRED
 	- Flows
 	- Input/output
 	- Fonctions
-
   - HTTP
-
   - Fonctions Javascript (split, join, sort)
 
 ### VACANCES
