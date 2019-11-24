@@ -3,7 +3,7 @@
 ## 17/09 - Présentation du projet
 
   - IA & Watson
-  - Premiers pas sur la platforme
+  - Premiers pas sur la platforme IBM Cloud
   - Création groupes de travail
 
 ## 01/10 - Assistant
