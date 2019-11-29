@@ -16,28 +16,47 @@ Ce programme est un flux très simple qui imprime le message «Hello World» sur
 
 Vous pouvez voir ici l'interface utilisateur de Node-RED. Les blocs colorés à l'écran sont appelés des nœuds. Ils représentent une représentation visuelle d'un morceau de code JavaScript permettant d'exécuter une tâche. Pour créer ce flux 'Hello World', vous devez suivre les étapes suivantes:
 
- 1. glissez le noeud 'Inject' dans la fenêtre
- 2. Double-cliquez sur le noeud pour voir les options.
- 3. Utilisez le menu déroulant dans le champ de données pour sélectionner **String** comme données utiles.
- 4. Tapez 'Hello' dans le champ de données. Cela injectera 'Hello' dans le flux lorsque le nœud d'injection sera lancé. Cliquez sur **done** pour enregistrer et fermer ce nœud.
+1. Cherchez le nœud `Inject` dans la liste de nœuds à gauche
 
- ![HelloWorldInject](images/hello_world_inject_node.png)
- 
- 5. Ajoutez un nœud 'Function', ouvrez-le et ajoutez le texte suivant à la première ligne de la fonction: `msg.payload += " World"`. Cela ajoutera ' World' à la chaine de caractères.
- 
-   La fonction complète devrait ressembler à ceci: ![HelloWorld](images/complete_hw_func.jpg)
+![Inject Node](images/inject-node.png)
 
- 6. Ajoutez un nœud 'Debug'.
- 7. Câblez le nœud 'Injecter' au nœud 'Function' et le noeud de fonction au noeud 'Debug'. La plupart des nœuds ont un cercle gris à gauche, leur port d'entrée, et à droite, leur port de sortie. Un clic gauche sur la sortie et en le faisant glisser vers le port d'entrée du noeud suivant connecte les deux.
- 8. Cliquez sur 'Deploy'. Cela enregistre vos modifications sur le serveur.
+2. Glissez le nœud `Inject` dans la fenêtre centrale
+3. Double-cliquez sur le nœud pour voir les options.
 
-Maintenant que vous avez créé votre premier flux Hello World, testez-le en cliquant sur le bouton situé à gauche du nœud 'Inject'. Vous verrez des résultats dans la fenêtre de débogage à droite (cliquez sur 'Debug' pour changer la vue de info en débogage).
+![Node Config](images/node-config.png)
+
+4. Utilisez le menu déroulant dans le champ de données pour sélectionner **String** comme données utiles.
+5. Tapez 'Hello' dans le champ de données. Cela injectera 'Hello' dans le flux lorsque le nœud d'injection sera lancé. Cliquez sur **done** pour enregistrer et fermer ce nœud.
+
+![HelloWorldInject](images/hello_world_inject_node.png)
+
+6. Cherchez le nœud `Function` dans la colonne de droite.
+7. Ajoutez un nœud `Function`, ouvrez le et ajoutez le texte suivant à la première ligne de la fonction: `msg.payload += " World";`. Cela ajoutera ' World' à la chaine de caractères.
+
+La fonction complète devrait ressembler à ceci: ![HelloWorld](images/complete_hw_function.png)
+
+7. Ajoutez un nœud `Debug`.
+8. Câblez le nœud `Injecter` au nœud `Function` et le nœud de fonction au nœud `Debug`. La plupart des nœuds ont un cercle gris à gauche, leur port d'entrée, et à droite, leur port de sortie. Un clic gauche sur la sortie et en le faisant glisser vers le port d'entrée du nœud suivant connecte les deux.
+
+![Complete Flow](images/complete-hw-flow.png)
+
+9. Cliquez sur `Deploy`. Cela enregistre vos modifications sur le serveur.
+
+![Deploy](images/deploy-button.png)
+
+Maintenant que vous avez créé votre premier flux Hello World, testez-le en cliquant sur le bouton situé à gauche du nœud `Inject`. Vous verrez des résultats dans la fenêtre de débogage à droite (cliquez sur `Debug` pour changer la vue de info en débogage).
+
+![debug button](images/debug.png)
+
+Voici le réusltat que vous devriez obtenir :
+
+![result](images/result.png)
 
 ## Noeuds utilisés plus tard
 
 Dans cette section, nous allons décrire plusieurs nœuds qui seront utilisés dans les travaux pratiques. Les laboratoires utiliseront ces services pour créer des applications Watson.
 
-### Noeud Change 
+### Noeud Change
 
 ![httpin](images/node_red_change.png)
 
@@ -53,13 +72,13 @@ définit une propriété. La propriété peut être une valeur de chaîne (Strin
 
     Change
 
-rechercher et remplacer des parties de la propriété. 
+rechercher et remplacer des parties de la propriété.
 
     Delete
 
 supprimer une propriété.
 
-### Noeud Switch 
+### Noeud Switch
 
 ![httpin](images/node_red_switch.png)
 
@@ -106,7 +125,7 @@ Le message résultant a les propriétés suivantes:
     msg.req : http request
     msg.res : http response
 
-Pour les requêtes POST/PUT, le contenu (body) peut être trouvé ici: 
+Pour les requêtes POST/PUT, le contenu (body) peut être trouvé ici:
 
     msg.req.body
 
@@ -139,5 +158,3 @@ si défini, est utilisé comme code d'état de la réponse (par défaut: 200)
     headers
 
 si défini, doit être un objet contenant des paires champ / valeur à ajouter comme en-tête de réponse.
-
-
