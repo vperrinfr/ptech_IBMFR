@@ -128,4 +128,6 @@ Dans cette section, vous allez modifier votre page Web "Hello World" pour y incl
 
 3. Essayez votre page Web avec JavaScript. Entrez votre nom et cliquez sur Entrée.
 
+![Lancer Watson Studio](/images/basic_bots_lab2_step2_4a.png)
 
+![Lancer Watson Studio](/images/basic_bots_lab2_step2_4b.png)
