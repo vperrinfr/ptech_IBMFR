@@ -18,14 +18,14 @@
 
 8. Double-cliquez sur le nœud du modèle pour le modifier. Supprimez le texte présent dans le champ du modèle et entrez le code HTML simple suivant:
 
-``<html>
+`<html>
       <head>
             <title>Hello World</title>
       </head>
       <body>
             <div>Hello to Watson on Node-RED</div>
       </body>
-</html>``
+</html>`
 
 9. Cliquez sur **Done** pour enregistrer vos modifications.
 
