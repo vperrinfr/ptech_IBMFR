@@ -18,8 +18,8 @@ Ce cours a vocation à faire découvrir l'intelligence artificielle aux lycéens
 ### Labs 
 - Semaine 1: [Watson Assistant](lab_WA.md)
 - Semaine 4:
-    1. [Visual Recognition - Classification S4](lab_VR.md)
-    2. [Visual Recognition - Object Detection S4](lab_vr_locate.md)
+    1. [Visual Recognition - Classification](lab_VR.md)
+    2. [Visual Recognition - Object Detection](lab_vr_locate.md)
 - Semaine 5:[Montage du TJBot S5](tjbot.md)
 - Semaine 6: 
     1. [Introduction à Nodered](welcome_nodered.md)
