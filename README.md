@@ -23,8 +23,8 @@ Ce cours a vocation à faire découvrir l'intelligence artificielle aux lycéens
 - Semaine 5:[Montage du TJBot S5](tjbot.md)
 - Semaine 6: 
     1. [Introduction à Nodered](welcome_nodered.md)
-    2. [Site Web](Site_Web.md)
-    3. [Pour aller plus loin](plus_loin.md)
+    2. [Créer un Site Web](Site_Web.md)
+    3. [Pour aller plus loin d'autres noeuds](plus_loin.md)
     4. [Tableau de bord](NodeRed-Dashboard.md)
 - Semaine 6: 
     1. [Introduction aux noeuds Watson pour le TJBot](tjbot_nodes.md)
