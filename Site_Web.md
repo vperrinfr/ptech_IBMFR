@@ -25,8 +25,8 @@
       <body>
             <div>Hello to Watson on Node-RED</div>
       </body>
-</html>```
-
+</html>
+```
 9. Cliquez sur **Done** pour enregistrer vos modifications.
 
 10. Double-cliquez sur le noeud ttp d'entrée. Modifiez-le pour créer un itinéraire HTTP vers votre page Web en entrant / <une chaîne> dans le champ URL, par exemple, / hw. Dans le champ Nom, entrez un nom tel que HTTP Hello World.
