@@ -35,5 +35,8 @@ Déployer le flux
 
 Lorsque vous visiterez cette page, vous verrez votre graphique suivant, comme indiqué ci-dessous:
 
+![pic](/images/dash_7.png)
 
 C’était assez simple, ajoutons quelques éléments d’interface utilisateur à notre tableau de bord. Commençons par créer une jauge pour afficher la dernière valeur de données envoyée. Faites glisser un nœud de jauge de la palette de l'interface utilisateur et connectez-le au nœud de fonction Nombre aléatoire.
+
+![pic](/images/dash_8.png)
