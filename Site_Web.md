@@ -45,8 +45,12 @@
 
 10. Double-cliquez sur le noeud ttp d'entrée. Modifiez-le pour créer un itinéraire HTTP vers votre page Web en entrant / <une chaîne> dans le champ URL, par exemple, / hw. Dans le champ Nom, entrez un nom tel que HTTP Hello World.
 
+![Lancer Watson Studio](/images/basic_bots_lab2_step1_10.png)
+
 11. Cliquez sur **Done** et déployez vos modifications.
 
 12. Ouvrez un nouvel onglet de navigateur et accédez à votre nouvelle page Web. L'adresse Web sera basée sur votre adresse Web Node-RED qui est ajoutée à l'URL de votre page Web que vous venez d'attribuer, par exemple, / hw.
+
+![Lancer Watson Studio](/images/basic_bots_lab2_step1_12b.png)
 
 Bravo, vous avez fait votre 1er site Web.
