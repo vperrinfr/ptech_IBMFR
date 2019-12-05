@@ -33,7 +33,7 @@ Voyons maintenant le noeud **Graphique**. Lorsque vous double-cliquez dessus, vo
 
 Déployer le flux
 
-Lorsque vous visiterez cette page, vous verrez votre graphique suiant, comme indiqué ci-dessous:
+Lorsque vous visiterez cette page, vous verrez votre graphique suivant, comme indiqué ci-dessous:
 
 
 C’était assez simple, ajoutons quelques éléments d’interface utilisateur à notre tableau de bord. Commençons par créer une jauge pour afficher la dernière valeur de données envoyée. Faites glisser un nœud de jauge de la palette de l'interface utilisateur et connectez-le au nœud de fonction Nombre aléatoire.
