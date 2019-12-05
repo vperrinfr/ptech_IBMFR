@@ -20,7 +20,7 @@ Ce cours a vocation à faire découvrir l'intelligence artificielle aux lycéens
 - Semaine 4:
     1. [Visual Recognition - Classification](lab_VR.md)
     2. [Visual Recognition - Object Detection](lab_vr_locate.md)
-- Semaine 5:[Montage du TJBot S5](tjbot.md)
+- Semaine 5: [Montage du TJBot S5](tjbot.md)
 - Semaine 6: 
     1. [Introduction à Nodered](welcome_nodered.md)
     2. [Créer un Site Web](Site_Web.md)
