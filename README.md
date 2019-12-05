@@ -16,13 +16,19 @@ Ce cours a vocation à faire découvrir l'intelligence artificielle aux lycéens
 - [Cours](https://ibm.box.com/s/fwy62v4ooxcvpcz1jnwz0nm51gnxfmnc) (Accès sur demande)
 
 ### Labs 
-- [Watson Assistant S1](lab_WA.md)
-- [Visual Recognition - Classification S4](lab_VR.md)
-- [Visual Recognition - Object Detection S4](lab_vr_locate.md)
-- [Montage du TJBot S5](tjbot.md)
-- [Introduction à Nodered S6](welcome_nodered.md)
-- [Introduction aux noeuds Watson pour le TJBot](tjbot_nodes.md)
-- [Comment récupérer les clés API des services Watson](authentification.md)
+- Semaine 1: [Watson Assistant](lab_WA.md)
+- Semaine 4:
+    1. [Visual Recognition - Classification S4](lab_VR.md)
+    2. [Visual Recognition - Object Detection S4](lab_vr_locate.md)
+- Semaine 5:[Montage du TJBot S5](tjbot.md)
+- Semaine 6: 
+    1. [Introduction à Nodered](welcome_nodered.md)
+    2. [Site Web](Site_Web.md)
+    3. [Pour aller plus loin](plus_loin.md)
+    4. [Tableau de bord](NodeRed-Dashboard.md)
+- Semaine 6: 
+    1. [Introduction aux noeuds Watson pour le TJBot](tjbot_nodes.md)
+    2. [Comment récupérer les clés API des services Watson](authentification.md)
 
 ## Taches globales à réaliser
 
