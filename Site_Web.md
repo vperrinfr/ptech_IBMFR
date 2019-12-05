@@ -6,6 +6,8 @@
 
 2. Créer un nouveau flux en cliquant sur le signe PLUS
 
+[lien](basic_bots_lab2_step1_2.png)
+
 3. Double-cliquez sur le nouvel onglet et entrez un nom pour le nouvel onglet de flux. Puis cliquez sur **Done**.
 
 4. Faites glisser et déposez un noeud http d'entrée sur le canevas. Utilisez le champ de recherche des noeuds de filtre pour trouver les noeuds.
