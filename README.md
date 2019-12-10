@@ -13,7 +13,7 @@ Ce cours a vocation à faire découvrir l'intelligence artificielle aux lycéens
 - [Photos des impressions](photos.md)
 
 ### Cours 
-- [Cours](https://ibm.box.com/s/fwy62v4ooxcvpcz1jnwz0nm51gnxfmnc) (Accès sur demande)
+- [Cours](https://ibm.box.com/s/lz2zkwdap6aigrcfgd0zgdn7fzratv7p) (Accès sur demande)
 
 ### Labs 
 - Semaine 1: [Watson Assistant](lab_WA.md)
