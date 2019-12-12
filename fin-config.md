@@ -26,4 +26,4 @@ Par défaut le clavier de Raspberry est configuré en QWERTY, pour le changer en
 
 ## Test du TJBot
 
-[Test du TJBOT](https://github.com/vperrinfr/ptech_IBMFR/blob/master/test_TJBot.md)
+[Test du TJBOT](./test_TJBot.md)
