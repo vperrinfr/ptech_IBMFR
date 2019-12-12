@@ -19,7 +19,7 @@ npm install
 
 Utilisez le script `runTests.sh` pour exécuter tous les tests matériels.
 
-Chaque test est **interactif** et il vous demandera si le TJBot a effectué ou non laction donnée. Si vous dites "N", le test échouera.
+Chaque test est **interactif** et il vous demandera si le TJBot a effectué ou non l'action donnée. Si vous dites "N", le test échouera.
 
 ## Exécution de tests spécifiques
 Si vous devez tester un composant matériel spécifique, vous pouvez exécuter chaque script de test séparément.
