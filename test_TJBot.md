@@ -7,7 +7,13 @@ Des tests matériel sont inclus  pour s'assurer que le matériel TJBot est confi
 
 Installez les dépendances pour les tests matériels.
 
-`npm install ~/Desktop/tjbot/bootstrap/tests`
+```bash
+cd ~/Desktop/tjbot/bootstrap/tests
+```
+
+```bash
+npm install
+```
 
 ## Lancer tous les tests
 
@@ -18,14 +24,20 @@ Chaque test est **interactif** et il vous demandera si le TJBot a effectué ou n
 ## Exécution de tests spécifiques
 Si vous devez tester un composant matériel spécifique, vous pouvez exécuter chaque script de test séparément.
 
-`cd ~/Desktop/tjbot/bootstrap/tests`
+```bash
+sudo node test.camera.js
+```
 
-`sudo node test.camera.js`
+```bash
+sudo node test.led.js
+```
 
-`sudo node test.led.js`
+```bash
+sudo node test.servo.js
+```
 
-`sudo node test.servo.js`
-
-`sudo node test.speaker.js`
+```bash
+sudo node test.speaker.js
+```
 
 Si tous les tests fonctionnent, votre TJBOT est opérationnel. **BRAVO**
