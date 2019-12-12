@@ -32,13 +32,15 @@ Nous allons expérimenter Node-Red.
 
 8. Double-cliquez sur le nœud du modèle pour le modifier. Supprimez le texte présent dans le champ du modèle et entrez le code HTML simple suivant:
 
-```<html>
-      <head>
-            <title>Hello World</title>
-      </head>
-      <body>
-            <div>Hello to Watson on Node-RED</div>
-      </body>
+```html
+<html>
+  <head>
+    <title>Hello World</title>
+  </head>
+
+  <body>
+    <div>Hello to Watson on Node-RED</div>
+  </body>
 </html>
 ```
 ![Lancer Watson Studio](/images/basic_bots_lab2_step1_8.png)
@@ -63,64 +65,65 @@ Dans cette section, vous allez modifier votre page Web "Hello World" pour y incl
 
 1. Double-cliquez sur le nœud de modèle et remplacez le code suivant dans le code HTML:
 
-```<html>
-    <head>
-        <title>Hello World</title>
-    </head>
-    <body>
-        <div>Hello to Watson on Node-RED</div>
-        <div id="id_hello">
-           <span>Hello</span>
-           &nbsp;
-           <span id="id_nameout"></span>
-       </div>
-        <form id="id_form">
-            <div>
-                <span>
-                    What is your name:  
-                </span>
-                <span>
-                    <input type="text" name="name"        
-                                     id="id_name"/>
-                </span>
-            </div>
-            <div>
-                <input type="submit" value="Enter"
-                                      id="id_enter"/>
-            </div>
-        </form>  
-        <script
-           src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js">
-     </script>
-        <script type="text/javascript">
-            $(document).ready(function(){
-                setupPage();
-            });
-            function setupPage(){
-                $('#id_hello').hide();
-                $('#id_form').submit(onSubmitClicked);
-                enterbutton();
+```html
+<html>
+  <head>
+    <title>Hello World</title>
+  </head>
+  <body>
+    <div>Hello to Watson on Node-RED</div>
+    <div id="id_hello">
+      <span>Hello</span>
+      &nbsp;
+      <span id="id_nameout"></span>
+    </div>
+    <form id="id_form">
+      <div>
+        <span>
+          What is your name:  
+        </span>
+        <span>
+          <input type="text" name="name"        
+                             id="id_name"/>
+        </span>
+      </div>
+      <div>
+        <input type="submit" value="Enter"
+                             id="id_enter"/>
+      </div>
+    </form>  
+    <script
+      src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js">
+    </script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        setupPage();
+      });
+      function setupPage(){
+        $('#id_hello').hide();
+        $('#id_form').submit(onSubmitClicked);
+        enterbutton();
+      }
+      function onSubmitClicked(event){
+        $('#id_nameout').text($('#id_name').val());
+        $('#id_hello').show();
+        $('#id_form').hide();
+        event.preventDefault();
+      }
+      function enterbutton(){
+        $(function() {
+          $("form input").keypress(function (e) {
+            if ((e.which && e.which == 13) || (e.keyCode && e.keyCode == 13)) {
+              $('#id_enter').click();
+              return false;
+            } else {
+              return true;
             }
-            function onSubmitClicked(event){
-                $('#id_nameout').text($('#id_name').val());
-                $('#id_hello').show();
-                $('#id_form').hide();
-                event.preventDefault();
-            }
-            function enterbutton(){
-                $(function() {
-                    $("form input").keypress(function (e) {
-                    if ((e.which && e.which == 13) || (e.keyCode && e.keyCode == 13)) {
-                        $('#id_enter').click();
-                        return false;
-                    } else {
-                        return true;
-                    }
-                });
-            });
-        }
-        </script>       
-    </body>
+          });
+        });
+      }
+    </script>       
+  </body>
 </html>
 ```
 
