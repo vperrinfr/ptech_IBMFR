@@ -100,7 +100,7 @@ Voici l'entité système finalisée:
 10. Désactivez le `Fuzzy Matching`
 11. Saississez `Téléphone`comme nom
 11. Sélectionnez `Patterns` au lien de `Synonyms`
-12. Copiez l'expression régulière pour détecter/valider un numéro de téléphone : ^(\\\\+33|0|0033)[0-9]{9}$
+12. Copiez l'expression régulière pour détecter/valider un numéro de téléphone : ^(\\+33|0|0033)[0-9]{9}$
 13. Tester la reconnaissance d'un numéro de téléphone dans le panneau `Try it out`
 14. Cliquez `Add entity` and add the name `Livraison`
 14. Cliquez `Add entity` and add the name `Validation` (Oui, Non)
