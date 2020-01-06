@@ -65,6 +65,10 @@ Nous avons presque fini! Les dernières étapes consistent à assembler le bras 
 
 ![image](images/img10.jpg)
 
+# Paramétrage du Raspberry
+
+[Config Raspberry](./fin-config.md)
+
 # Test du TJBot
 
 Maintenant, je vous propose de tester le TJBOT.
