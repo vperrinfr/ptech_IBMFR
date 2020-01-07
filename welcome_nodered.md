@@ -6,6 +6,12 @@
 Node-RED fournit un éditeur de flux basé via un navigateur qui facilite le câblage des flux entre eux à l'aide du large éventail de nœuds.
 Tandis que Node-RED est basé sur Node.js, des fonctions JavaScript peuvent être créées dans l'éditeur à l'aide d'un éditeur de texte enrichi. Une bibliothèque intégrée vous permet de sauvegarder des fonctions, des modèles ou des flux utiles pour les réutiliser.
 
+## Ouvrir NodeRED sur IBM Cloud
+
+1. Aller sur [IBM Cloud](https://cloud.ibm.com)
+2. Accédez au catalogue et recherchez «Node-RED». Cela vous présentera le démarreur Node-RED. Cela vous donne une instance Node-RED fonctionnant en tant qu'application Cloud Foundry. Il fournit également une instance de base de données Cloudant et une collection de nœuds qui facilitent l'accès à divers services IBM Cloud.
+3. Cliquez sur l'application de démarrage que vous souhaitez utiliser, donnez-lui un nom et cliquez sur créer.
+
 ### Créer votre premier flux
 
 Nous allons créer un flux Hello World.
