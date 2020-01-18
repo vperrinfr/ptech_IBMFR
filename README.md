@@ -29,6 +29,7 @@ Ce cours a vocation à faire découvrir l'intelligence artificielle aux lycéens
 - Semaine 6: 
     1. [Introduction aux noeuds Watson pour le TJBot](tjbot_nodes.md)
     2. [Comment récupérer les clés API des services Watson](authentification.md)
+    3. [Exemple de petits projets](projets.md)
 
 ## Taches globales à réaliser
 
