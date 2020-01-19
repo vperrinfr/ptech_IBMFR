@@ -37,3 +37,11 @@ Maintenant cliquer sur le bouton rouge **Deploy** button dans le coin supérieur
 Vous pouvez maintenant le tester sur http://localhost:1880/visualtj en prenant une photo et en l'analysant. 
 
 <img align="center" src="/images/webapp_new.png" width="50%">
+
+
+## Idée 2 : Le TJBot traduit mes demandes
+
+## Idée 3 : La votre...
+
+
+
