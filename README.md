@@ -28,7 +28,7 @@ Ce cours a vocation à faire découvrir l'intelligence artificielle aux lycéens
     4. [Tableau de bord](NodeRed-Dashboard.md)
 - Semaine 6: 
     1. [Introduction aux noeuds Watson pour le TJBot](tjbot_nodes.md)
-    2. [Comment récupérer les clés API des services Watson](authentification.md)
+    2. [Comment récupérer les clés API des services Watson](https://ibm.box.com/s/fvcxjyt60q059jup7sze9lt3x28o3rc8)
     3. [Exemple de petits projets](projets.md)
 
 ## Taches globales à réaliser
