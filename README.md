@@ -31,6 +31,8 @@ Ce cours a vocation à faire découvrir l'intelligence artificielle aux lycéens
     2. [Comment récupérer les clés API des services Watson](https://ibm.box.com/s/fvcxjyt60q059jup7sze9lt3x28o3rc8)
     3. [Exemple de petits projets](projets.md)
 
+https://ibm.box.com/s/n8ds8u3prib2vkntix1tebp5zj6t0pey
+
 ## Taches globales à réaliser
 
 - [X] Finaliser les impressions
