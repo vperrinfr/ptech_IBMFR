@@ -2,9 +2,11 @@
 
 ## 25/01 - Introduction à l'IA
 
-  - IA & Watson
+  - Qu'est ce que l'IA
+  - Un peu d'histoire de l'IA
+  - IA & IH
+  - IBM Watson
   - Premiers pas sur la platforme IBM Cloud
-  - Création groupes de travail
 
 ## 08/02 - Les agents conversationnels aka Chatbots
 
