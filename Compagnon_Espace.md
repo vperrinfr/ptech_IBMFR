@@ -123,22 +123,103 @@ Si l'assistant reconnaît #tell_me_about
 
 1. Accédez à votre nœud Dialog avec la condition #tell_me_about
 
-2. Cliquez sur Personnaliser dans le coin supérieur droit des configurations de nœuds.
+2. Cliquez sur **Customize/Personnaliser** dans le coin supérieur droit des configurations de nœuds.
 
 ![Picture12](https://github.com/vperrinfr/ptech_IBMFR/blob/master/images/Picture16.png)
 
-3. Activez Réponses conditionnées multiples et cliquez sur Appliquer.
+3. Activez **Multiple conditioned responses /Réponses conditionnées multiples** et cliquez sur **Apply/Appliquer**.
 
 ![Picture12](https://github.com/vperrinfr/ptech_IBMFR/blob/master/images/Picture17.png) 
 
-4. Créez maintenant une nouvelle réponse dans le nœud.
+4. Créez maintenant une **new response/nouvelle réponse** dans le nœud.
 
-5. Sous Si l'assistant reconnaît, remplissez la condition @planet: mars pour donner une réponse spécifique aux questions liées à Mars. Amenez cette réponse au plus haut niveau:
+5. Sous **If assistant recognizes/Si l'assistant reconnaît**, remplissez la condition **@planet:** mars pour donner une réponse spécifique aux questions liées à Mars. Amenez cette réponse au plus haut niveau:
 
 ![Picture12](https://github.com/vperrinfr/ptech_IBMFR/blob/master/images/Picture18.png)
 
-6. Sous Répondre avec, saisissez un fait intéressant sur Mars, par ex. «Mars est appelée la planète rouge en raison de la couleur rouge brunâtre de sa surface.»
+6. Sous **Respond with/Répondre avec**, saisissez un fait intéressant sur Mars, par ex. «Mars est appelée la planète rouge en raison de la couleur rouge brunâtre de sa surface.»
 
-7. Vous pouvez tester l'assistant en cliquant sur Essayer dans le coin supérieur droit de la fenêtre du navigateur.
+7. Vous pouvez tester l'assistant en cliquant sur **Try it/Essayer** dans le coin supérieur droit de la fenêtre du navigateur.
 
 ![Picture6](https://github.com/vperrinfr/ptech_IBMFR/blob/master/images/Picture6.png)
+
+### Watson Assistant - Réponses riches ###
+
+**Image**: intègre une image dans la réponse.
+
+1. Pour notre réponse autour de Mars, nous voulons montrer à notre astronaute une belle image de la planète. Par conséquent, ouvrez à nouveau le nœud #tell_me_about et cliquez sur le petit engrenage à côté de la réponse:
+
+  
+
+2. Faites défiler vers le bas et cliquez sur «Ajouter un type de réponse».
+
+3. Cliquez sur le menu déroulant dans le champ de réponse pour choisir Image comme type de réponse.
+
+4. Entrez un lien d'image (important: se terminant par .jpg ou .png),
+par exemple. : https://space-facts.com/wp-content/uploads/mars.jpg
+Vous pouvez également fournir un titre.
+
+
+En raison de la vitesse à laquelle la Station spatiale tourne autour de la Terre, il ne faut qu'environ 92 minutes pour faire le tour de la Terre une fois. Cela signifie que les astronautes voient un lever ou un coucher de soleil toutes les 45 minutes, totalisant 15 à 16 de chaque, toutes les 24 heures. Il est facile d’oublier le temps lorsque vous êtes dans l’espace!
+Cas d'utilisation - Quelle heure est-il?
+1. Définissez une nouvelle intention appelée #get_time et fournissez différents exemples d'utilisateurs afin d'apprendre à notre compagnon à comprendre la question.
+2. Nous avons besoin d'un nouveau nœud Dialog avec la condition #get_time.
+3. Il existe une fonction sympa pour restituer l'heure actuelle en fonction de votre fuseau horaire. Ces fonctions sont introduites avec des signes comme celui-ci: <? ?>
+Sous Répondre avec, tapez ce qui suit: <? maintenant ()?>
+4. Essayez de demander l'heure dans votre volet.
+ 
+5. La réponse semble correcte, mais n’a pas l’air très sophistiquée, non? Reformatons cette réponse en changeant la réponse en:
+C'est <? now (). reformatDateTime ('h: mm a')?>!
+6. Essayez à nouveau de demander du temps et remarquez la différence!
+ 
+
+Bien mieux!
+
+ 
+
+5. Cliquez sur Enregistrer.
+6. Vous pouvez tester l'assistant en cliquant sur «Essayer» dans le coin supérieur droit de la fenêtre du navigateur.
+
+ 
+
+
+Toutes nos félicitations! Vous avez compris les outils de base dont vous avez besoin pour créer votre compagnon spatial.
+Si vous le souhaitez, continuez à fournir plus de réponses à différentes planètes ou vous pouvez continuer avec le tutoriel afin d'enseigner encore plus de fonctionnalités à votre compagnon!
+
+Faire de l'exercice dans l'espace est essentiel pour prévenir la perte osseuse et musculaire. En moyenne, les astronautes font de l'exercice deux heures par jour. Demandons à notre compagnon spatial quand il est temps pour le prochain entraînement!
+Cas d'utilisation - Planification
+1. Définissez un nouvel intent appelé #schedule et ajoutez différents exemples, par exemple
+Ajoutez des exemples d'utilisateurs:
+- Quel est mon agenda pour aujourd'hui?
+- Montre-moi mon emploi du temps
+- Quelles activités sont à mon agenda?
+
+2. Créez un nœud de dialogue, définissez la condition comme #schedule et fournissez une réponse!
+3. Si vous souhaitez demander des activités spécifiques, vous pouvez créer une nouvelle entité appelée @schedule_items et la remplir avec différentes activités, par exemple
+Ajouter des valeurs d'entité:
+- Entraînement
+- Expérience
+- Déjeuner
+- Entretien
+- Nettoyage
+- etc.
+4. Revenez au nœud Dialogue et activez les réponses conditionnelles.
+5. Fournissez différentes réponses pour les activités spécifiques, par exemple:
+
+ 
+
+6. Génial, votre astronaute peut maintenant facilement demander des choses à l'ordre du jour!
+Toutes nos félicitations!
+
+Toutes nos félicitations!
+Vous avez développé votre Space Companion avec IBM Watson Assistant.
+Votre nouvel ami est prêt à être testé et amélioré.
+
+Autres idées:
+- Demandez à votre compagnon ce qu'il / elle ressent aujourd'hui! (Indice: #feeling)
+- Demandez à votre compagnon ce qu'il peut faire pour vous (Indice: #capabilities)
+- Demandez à votre compagnon où trouver le module Columbus ou le Canadarm2!
+(Indice: #location + @module)
+- Étendez votre fonctionnalité #tell_me_about avec d'autres entités
+(Indice: par exemple, "Parlez-moi de l'ISS!")
+- … et plus encore!
