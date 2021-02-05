@@ -66,7 +66,7 @@ Ajoutez des exemples d'utilisateurs:
 
 ### Watson Assistant - Entités contextuelles ###
 
-Entities/Entités: une entité représente un terme ou un objet qui fournit le contexte d'une intention.
+**Entities/Entités**: une entité représente un terme ou un objet qui fournit le contexte d'une intention.
 
 1. Ensuite, nous voulons extraire le bon objet qui intéresse notre astronaute! Nous apprendrons à l'assistant à comprendre l'objet en fonction du contexte de la question.
 
@@ -74,8 +74,71 @@ Entities/Entités: une entité représente un terme ou un objet qui fournit le c
 
 ![Picture8](https://github.com/vperrinfr/ptech_IBMFR/blob/master/images/Picture9.png)
 
-3. Pour les phrases d'exemple suivantes, marquez simplement les planètes et choisissez @planet pour affecter l'entité!
+3. Pour les phrases d'exemple suivantes, marquez simplement les planètes et choisissez **@planet** pour affecter l'entité!
 
 ![Picture8](https://github.com/vperrinfr/ptech_IBMFR/blob/master/images/Picture10.png)
 
 4. Cool, jetons un coup d'œil à notre collection actuelle d'entités!
+
+### Watson Assistant - Étendez vos entités (facultatif) ###
+
+1. Sous Entités, vous devriez voir notre nouvelle entité que nous venons de créer: @planet
+ 
+![Picture8](https://github.com/vperrinfr/ptech_IBMFR/blob/master/images/Picture11.png)
+
+2. Vous pouvez ajouter plusieurs valeurs différentes à cette entité auxquelles vous pouvez penser:
+
+Ajouter des valeurs à l'entité:
+- Saturne
+- Jupiter
+- etc.
+
+![Picture12](https://github.com/vperrinfr/ptech_IBMFR/blob/master/images/Picture12.png)
+
+3. Notre compagnon devrait maintenant être capable de détecter plusieurs planètes différentes lorsqu'il les demande. Voyons comment nous pouvons répondre!
+
+### Watson Assistant - Créer la boîte de dialogue ###
+
+1. Dans l'onglet Dialogue, créez un nouveau nœud avec **Add Node/Ajouter un nœud**.
+
+![Picture12](https://github.com/vperrinfr/ptech_IBMFR/blob/master/images/Picture13.png)
+
+2. Remplissez la condition:
+Si l'assistant reconnaît #tell_me_about
+
+![Picture12](https://github.com/vperrinfr/ptech_IBMFR/blob/master/images/Picture14.png)
+
+3. Dans le champ ci-dessous, répondez ensuite en remplissant une réponse dynamique qui utilise l'entité extraite:
+"Je comprends que vous voulez en savoir plus sur @planet!"
+
+![Picture12](https://github.com/vperrinfr/ptech_IBMFR/blob/master/images/Picture15.png)
+
+4. Vous pouvez tester l'assistant en cliquant sur Essayer dans le coin supérieur droit de la fenêtre du navigateur.
+
+![Picture6](https://github.com/vperrinfr/ptech_IBMFR/blob/master/images/Picture6.png)
+
+5. Génial, votre assistant sait de quelle planète vous parlez! Étanchons cette soif de connaissances et apportons une réponse spécifique, en commençant par des réponses sur Mars!
+
+### Watson Assistant - Réponses conditionnelles ###
+
+1. Accédez à votre nœud Dialog avec la condition #tell_me_about
+
+2. Cliquez sur Personnaliser dans le coin supérieur droit des configurations de nœuds.
+
+![Picture12](https://github.com/vperrinfr/ptech_IBMFR/blob/master/images/Picture16.png)
+
+3. Activez Réponses conditionnées multiples et cliquez sur Appliquer.
+
+![Picture12](https://github.com/vperrinfr/ptech_IBMFR/blob/master/images/Picture17.png) 
+
+4. Créez maintenant une nouvelle réponse dans le nœud.
+
+5. Sous Si l'assistant reconnaît, remplissez la condition @planet: mars pour donner une réponse spécifique aux questions liées à Mars. Amenez cette réponse au plus haut niveau:
+
+![Picture12](https://github.com/vperrinfr/ptech_IBMFR/blob/master/images/Picture18.png)
+
+6. Sous Répondre avec, saisissez un fait intéressant sur Mars, par ex. «Mars est appelée la planète rouge en raison de la couleur rouge brunâtre de sa surface.»
+
+7. Vous pouvez tester l'assistant en cliquant sur Essayer dans le coin supérieur droit de la fenêtre du navigateur.
+
+![Picture6](https://github.com/vperrinfr/ptech_IBMFR/blob/master/images/Picture6.png)
