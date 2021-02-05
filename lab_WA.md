@@ -1,4 +1,4 @@
-# Scénario du Workshop
+# Scénario du Workshop 1 : Société de vente de café
 
 Bonjour,
 
