@@ -1,9 +1,9 @@
-# Construire son assistant spatial #
+# Scénario du Workshop 2 : Construire son assistant spatial 
 
 Dans cet atelier, vous créez votre propre assistant virtuel basé sur IBM Watson Assistant. Vous comprendrez les bases de la conception d'interfaces conversationnelles, en utilisant des intentions et des entités. 
 Vous apprendrez à créer des réponses sous forme de texte brut, de réponses riches et même de réponses conditionnelles.
 
-### Watson Assistant - Configuration ###
+### Watson Assistant - Configuration 
 
 Compte IBM Cloud: Le catalogue de IBM cloud fournit des solutions cloud à partir de plus de 190 services dans de nombreuses catégories et l'inscription est gratuite.
 
@@ -213,7 +213,7 @@ Ajouter des valeurs d'entité:
 
 6. Génial, votre astronaute peut maintenant facilement répondre sur les tâches à l'ordre du jour!
 
-## Toutes nos félicitations! ##
+## Toutes nos félicitations!
 Vous avez développé votre Space Companion avec IBM Watson Assistant.
 Votre nouvel ami est prêt à être testé et amélioré.
 
