@@ -30,3 +30,37 @@ Watson Assistant - Message de bienvenue
 1. Accédez à la section **Dialog/Dialogue** et cliquez sur **Create Dialog/Créer une boîte de dialogue**. Vous verrez comment une arborescence de dialogue de base se construit.
 
 2. Cliquez sur le nœud **Welcome/Bienvenue** pour le modifier.
+
+![Picture4](https://github.com/vperrinfr/ptech_IBMFR/blob/master/images/Picture4.png)
+
+3. Changez le message de bienvenue en quelque chose de différent, afin que votre compagnon spatial puisse se présenter:
+
+![Picture5](https://github.com/vperrinfr/ptech_IBMFR/blob/master/images/Picture5.png)
+
+4. Si vous accédez au volet Essayer sur le côté droit, votre compagnon vous accueillera avec le nouveau message
+
+![Picture6](https://github.com/vperrinfr/ptech_IBMFR/blob/master/images/Picture6.png)
+
+Les astronautes sont des gens curieux!
+Ils veulent toujours apprendre de nouvelles choses. Ils posent beaucoup de questions. Apprenons à notre assistant à comprendre les questions sur les planètes!
+
+Watson Assistant - **Create an intent/Créer une intention**
+
+**Intent/Intentions**: Objectifs, thèmes que vous prévoyez que vos utilisateurs demanderont lorsqu'ils interagiront avec le service.
+
+1. Cliquez sur «Create intent/Créer une intention» et définissez-lui un nom (par exemple #tell_me_about). Cliquez sur "Create intent/Créer une intention"
+
+![Picture7](https://github.com/vperrinfr/ptech_IBMFR/blob/master/images/Picture7.png)
+
+2. Ajoutez plusieurs exemples différents à cette intention:
+
+Ajoutez des exemples d'utilisateurs:
+- Je veux en savoir plus sur la terre
+- Veuillez expliquer quelque chose sur le mercure
+- Parlez-moi de mars
+- etc.
+
+![Picture8](https://github.com/vperrinfr/ptech_IBMFR/blob/master/images/Picture8.png)
+
+
+3. Génial, notre compagnon comprendra maintenant l'intention de notre question.
