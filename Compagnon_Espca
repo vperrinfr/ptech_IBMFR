@@ -62,5 +62,20 @@ Ajoutez des exemples d'utilisateurs:
 
 ![Picture8](https://github.com/vperrinfr/ptech_IBMFR/blob/master/images/Picture8.png)
 
-
 3. Génial, notre compagnon comprendra maintenant l'intention de notre question.
+
+Watson Assistant - Entités contextuelles
+
+Entities/Entités: une entité représente un terme ou un objet qui fournit le contexte d'une intention.
+
+1. Ensuite, nous voulons extraire le bon objet qui intéresse notre astronaute! Nous apprendrons à l'assistant à comprendre l'objet en fonction du contexte de la question.
+
+2. Par conséquent, veuillez marquer la planète dans l'une de vos phrases d'exemple d'intention, tapez «planète» et cliquez sur **create new entity/créer une nouvelle entité**.
+
+![Picture8](https://github.com/vperrinfr/ptech_IBMFR/blob/master/images/Picture9.png)
+
+3. Pour les phrases d'exemple suivantes, marquez simplement les planètes et choisissez @planet pour affecter l'entité!
+
+![Picture8](https://github.com/vperrinfr/ptech_IBMFR/blob/master/images/Picture10.png)
+
+4. Cool, jetons un coup d'œil à notre collection actuelle d'entités!
