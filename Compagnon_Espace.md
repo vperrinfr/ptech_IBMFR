@@ -1,9 +1,9 @@
-### Construire son assistant spatial ###
+## Construire son assistant spatial ##
 
 Dans cet atelier, vous créez votre propre assistant virtuel basé sur IBM Watson Assistant. Vous comprendrez les bases de la conception d'interfaces conversationnelles, en utilisant des intentions et des entités. 
 Vous apprendrez à créer des réponses sous forme de texte brut, de réponses riches et même de réponses conditionnelles.
 
-#### Watson Assistant - Configuration ####
+### Watson Assistant - Configuration ###
 
 Compte IBM Cloud: Le catalogue de IBM cloud fournit des solutions cloud à partir de plus de 190 services dans de nombreuses catégories et l'inscription est gratuite.
 
@@ -25,7 +25,7 @@ Compte IBM Cloud: Le catalogue de IBM cloud fournit des solutions cloud à parti
 
 Tout d'abord, nous voulons donner un nom à notre compagnon spatial!
 
-Watson Assistant - Message de bienvenue
+### Watson Assistant - Message de bienvenue ###
 
 1. Accédez à la section **Dialog/Dialogue** et cliquez sur **Create Dialog/Créer une boîte de dialogue**. Vous verrez comment une arborescence de dialogue de base se construit.
 
@@ -44,7 +44,7 @@ Watson Assistant - Message de bienvenue
 Les astronautes sont des gens curieux!
 Ils veulent toujours apprendre de nouvelles choses. Ils posent beaucoup de questions. Apprenons à notre assistant à comprendre les questions sur les planètes!
 
-Watson Assistant - **Create an intent/Créer une intention**
+### Watson Assistant - **Create an intent/Créer une intention** ###
 
 **Intent/Intentions**: Objectifs, thèmes que vous prévoyez que vos utilisateurs demanderont lorsqu'ils interagiront avec le service.
 
@@ -64,7 +64,7 @@ Ajoutez des exemples d'utilisateurs:
 
 3. Génial, notre compagnon comprendra maintenant l'intention de notre question.
 
-Watson Assistant - Entités contextuelles
+### Watson Assistant - Entités contextuelles ###
 
 Entities/Entités: une entité représente un terme ou un objet qui fournit le contexte d'une intention.
 
