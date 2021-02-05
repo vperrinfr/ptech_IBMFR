@@ -1,0 +1,32 @@
+### Construire son assistant spatial ###
+
+Dans cet atelier, vous créez votre propre assistant virtuel basé sur IBM Watson Assistant. Vous comprendrez les bases de la conception d'interfaces conversationnelles, en utilisant des intentions et des entités. 
+Vous apprendrez à créer des réponses sous forme de texte brut, de réponses riches et même de réponses conditionnelles.
+
+#### Watson Assistant - Configuration ####
+
+Compte IBM Cloud: Le catalogue de IBM cloud fournit des solutions cloud à partir de plus de 190 services dans de nombreuses catégories et l'inscription est gratuite.
+
+1. Créez un compte sur IBM Cloud: https://cloud.ibm.com
+
+2. Recherchez «Watson Assistant» dans le catalogue:
+
+![Picture1](https://github.com/vperrinfr/ptech_IBMFR/blob/master/images/Picture1.png)
+
+3. Quittez la configuration standard et cliquez sur «Create/Créer».
+
+4. Commencez par cliquer sur "Launch Tool/Lancer l'outil"
+
+![Picture2](https://github.com/vperrinfr/ptech_IBMFR/blob/master/images/Picture2.png)
+
+5. Configurez une nouvelle compétence en cliquant sur «Skills/Compétences» -> «Create new/Créer une nouvelle»
+
+![Picture3](https://github.com/vperrinfr/ptech_IBMFR/blob/master/images/Picture3.png)
+
+Tout d'abord, nous voulons donner un nom à notre compagnon spatial!
+
+Watson Assistant - Message de bienvenue
+
+1. Accédez à la section **Dialog/Dialogue** et cliquez sur **Create Dialog/Créer une boîte de dialogue**. Vous verrez comment une arborescence de dialogue de base se construit.
+
+2. Cliquez sur le nœud **Welcome/Bienvenue** pour le modifier.
