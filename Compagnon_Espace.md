@@ -13,13 +13,13 @@ Compte IBM Cloud: Le catalogue de IBM cloud fournit des solutions cloud à parti
 
 ![Picture1](https://github.com/vperrinfr/ptech_IBMFR/blob/master/images/Picture1.png)
 
-3. Quittez la configuration standard et cliquez sur «Create/Créer».
+3. Quittez la configuration standard et cliquez sur «**Create/Créer**».
 
-4. Commencez par cliquer sur "Launch Tool/Lancer l'outil"
+4. Commencez par cliquer sur "**Launch Tool/Lancer l'outil**"
 
 ![Picture2](https://github.com/vperrinfr/ptech_IBMFR/blob/master/images/Picture2.png)
 
-5. Configurez une nouvelle compétence en cliquant sur «Skills/Compétences» -> «Create new/Créer une nouvelle»
+5. Configurez une nouvelle compétence en cliquant sur «**Skills/Compétences**» -> «**Create new/Créer une nouvelle**»
 
 ![Picture3](https://github.com/vperrinfr/ptech_IBMFR/blob/master/images/Picture3.png)
 
@@ -48,7 +48,7 @@ Ils veulent toujours apprendre de nouvelles choses. Ils posent beaucoup de quest
 
 **Intent/Intentions**: Objectifs, thèmes que vous prévoyez que vos utilisateurs demanderont lorsqu'ils interagiront avec le service.
 
-1. Cliquez sur «Create intent/Créer une intention» et définissez-lui un nom (par exemple #tell_me_about). Cliquez sur "Create intent/Créer une intention"
+1. Cliquez sur «**Create intent/Créer une intention**» et définissez-lui un nom (par exemple **#tell_me_about**). Cliquez sur "**Create intent/Créer une intention**"
 
 ![Picture7](https://github.com/vperrinfr/ptech_IBMFR/blob/master/images/Picture7.png)
 
@@ -82,7 +82,7 @@ Ajoutez des exemples d'utilisateurs:
 
 ### Watson Assistant - Étendez vos entités (facultatif) ###
 
-1. Sous Entités, vous devriez voir notre nouvelle entité que nous venons de créer: @planet
+1. Sous Entités, vous devriez voir notre nouvelle entité que nous venons de créer: **@planet**
  
 ![Picture8](https://github.com/vperrinfr/ptech_IBMFR/blob/master/images/Picture11.png)
 
@@ -109,11 +109,11 @@ Si l'assistant reconnaît #tell_me_about
 ![Picture12](https://github.com/vperrinfr/ptech_IBMFR/blob/master/images/Picture14.png)
 
 3. Dans le champ ci-dessous, répondez ensuite en remplissant une réponse dynamique qui utilise l'entité extraite:
-"Je comprends que vous voulez en savoir plus sur @planet!"
+"Je comprends que vous voulez en savoir plus sur **@planet!**"
 
 ![Picture12](https://github.com/vperrinfr/ptech_IBMFR/blob/master/images/Picture15.png)
 
-4. Vous pouvez tester l'assistant en cliquant sur Essayer dans le coin supérieur droit de la fenêtre du navigateur.
+4. Vous pouvez tester l'assistant en cliquant sur **Try It/Essayer** dans le coin supérieur droit de la fenêtre du navigateur.
 
 ![Picture6](https://github.com/vperrinfr/ptech_IBMFR/blob/master/images/Picture6.png)
 
@@ -121,7 +121,7 @@ Si l'assistant reconnaît #tell_me_about
 
 ### Watson Assistant - Réponses conditionnelles ###
 
-1. Accédez à votre nœud Dialog avec la condition #tell_me_about
+1. Accédez à votre nœud Dialog avec la condition **#tell_me_about**
 
 2. Cliquez sur **Customize/Personnaliser** dans le coin supérieur droit des configurations de nœuds.
 
@@ -147,13 +147,13 @@ Si l'assistant reconnaît #tell_me_about
 
 **Image**: intègre une image dans la réponse.
 
-1. Pour notre réponse autour de Mars, nous voulons montrer à notre astronaute une belle image de la planète. Par conséquent, ouvrez à nouveau le nœud #tell_me_about et cliquez sur le petit engrenage à côté de la réponse:
+1. Pour notre réponse autour de Mars, nous voulons montrer à notre astronaute une belle image de la planète. Par conséquent, ouvrez à nouveau le nœud **#tell_me_about** et cliquez sur le petit engrenage à côté de la réponse:
 
 ![Picture12](https://github.com/vperrinfr/ptech_IBMFR/blob/master/images/Picture18.png)
 
 2. Faites défiler vers le bas et cliquez sur **Add Response Type/Ajouter un type de réponse**.
 
-3. Cliquez sur le menu déroulant dans le champ de réponse pour choisir Image comme type de réponse.
+3. Cliquez sur le menu déroulant dans le champ de réponse pour choisir **Image** comme type de réponse.
 
 4. Entrez un lien d'image (important: se terminant par .jpg ou .png),
 par exemple. : https://space-facts.com/wp-content/uploads/mars.jpg
