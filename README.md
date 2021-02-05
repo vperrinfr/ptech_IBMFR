@@ -17,7 +17,9 @@ Ce cours a vocation à faire découvrir l'intelligence artificielle aux lycéens
 - [Cours](https://ibm.box.com/s/lz2zkwdap6aigrcfgd0zgdn7fzratv7p) (Accès sur demande)
 
 ### Labs 
-- Semaine 1: [Watson Assistant](lab_WA.md)
+- Semaine 1: 
+    1. [Vente de café](lab_WA.md)
+    2. [Compagnon spatial](Compagnon_Espace.md)
 - Semaine 4:
     1. [Visual Recognition - Classification](lab_VR.md)
     2. [Visual Recognition - Object Detection](lab_vr_locate.md)
@@ -41,7 +43,7 @@ https://ibm.box.com/s/n8ds8u3prib2vkntix1tebp5zj6t0pey
 ...
 
 # Concepteurs du cours
-@hmatheisen et @vperrinfr - IBM
+@vperrinfr - IBM
 
 # License
 
