@@ -20,16 +20,17 @@ Ce cours a vocation à faire découvrir l'intelligence artificielle aux lycéens
 - Semaine 1: 
     1. [Vente de café](lab_WA.md)
     2. [Compagnon spatial](Compagnon_Espace.md)
+    3. [Tips](tips_WA.md)
 - Semaine 4:
     1. [Visual Recognition - Classification](lab_VR.md)
     2. [Visual Recognition - Object Detection](lab_vr_locate.md)
-- Semaine 5: [Montage du TJBot S5](tjbot.md)
-- Semaine 6: 
+- Semaine 3: [Montage du TJBot S5](tjbot.md)
+- Semaine 4:
     1. [Introduction à Nodered](welcome_nodered.md)
     2. [Créer un Site Web](Site_Web.md)
     3. [Pour aller plus loin d'autres noeuds](plus_loin.md)
     4. [Tableau de bord](NodeRed-Dashboard.md)
-- Semaine 6: 
+- Semaine 5: 
     1. [Introduction aux noeuds Watson pour le TJBot](tjbot_nodes.md)
     2. [Comment récupérer les clés API des services Watson](https://ibm.box.com/s/fvcxjyt60q059jup7sze9lt3x28o3rc8)
     3. [Exemple de petits projets](projets.md)
