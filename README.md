@@ -9,7 +9,7 @@ Ce cours a vocation à faire découvrir l'intelligence artificielle aux lycéens
 ### Logistique 
 - [Planning 2020](planning_2020.md)
 - [Planning 2021](planning_2021.md)
-- [Planning 2021](planning_2022.md)
+- [Planning 2022](planning_2022.md)
 - [Fichiers de conception des TJBots pour impression 3D ou découpage Laser](https://ibmtjbot.github.io/#gettj)
 - [TJBOT Print](print.md)
 - [Photos des impressions](photos.md)
