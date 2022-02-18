@@ -5,7 +5,7 @@
   - Qu'est ce que l'IA
   - Un peu d'histoire de l'IA
   - Intelligence Artificielle & Intelligence Humaine
-  - Ethique et IA (Nouveautés 2022)
+ 
   - Premiers pas sur la platforme IBM Cloud
 
 ## 17/03 - Les agents conversationnels aka Chatbots
@@ -19,7 +19,12 @@
   - 1ère Restitution orale
 
 ## 07/04 - La vision par ordinateur
+  - Théorie, Vocabulaire
+  - Cas d'utilisation
+  - Projet Chatbot
 
-## 14/04 - 
+## 14/04 - Ethique et IA (Nouveautés 2022)
+  - Pourquoi parlons-nous d'éthique ?
+  - FInalisation Projet Chatbot
 
 ## 21/04 - Restitution Projet 
