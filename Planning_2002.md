@@ -16,15 +16,15 @@
   
 ## 31/03 - Je construis MON chatbot
   - Créer son propre Chatbot
-  - 1ère Restitution orale
+  - 1ère Restitution orale - Présentation de l'idée du projet
 
 ## 07/04 - La vision par ordinateur
   - Théorie, Vocabulaire
   - Cas d'utilisation
-  - Projet Chatbot
+  - Pratique Projet Chatbot
 
 ## 14/04 - Ethique et IA (Nouveautés 2022)
   - Pourquoi parlons-nous d'éthique ?
-  - FInalisation Projet Chatbot
+  - Finalisation Projet Chatbot
 
-## 21/04 - Restitution Projet 
+## 21/04 - Restitution Projet Chatbot
