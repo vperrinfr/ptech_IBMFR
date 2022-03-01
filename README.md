@@ -9,7 +9,7 @@ Ce cours a vocation à faire découvrir l'intelligence artificielle aux lycéens
 ### Logistique 
 - [Planning 2020](planning_2020.md)
 - [Planning 2021](planning_2021.md)
-- [Planning 2022](Planning_2022.md)
+- [Planning 2022](Planning_2002.md)
 
 ### Cours 
 - [Cours](https://ibm.box.com/s/lz2zkwdap6aigrcfgd0zgdn7fzratv7p) (Accès sur demande)
