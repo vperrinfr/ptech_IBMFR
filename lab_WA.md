@@ -1,5 +1,7 @@
 # Scénario du Workshop 1 : Société de vente de café
 
+**** Attention Il faut être en mode "Expérience Classique" **** Description ![ici](/images/experience.png)
+
 Bonjour,
 
 Vous venez d’être embauché par la société « Coffee Bean ». Cette société souhaite mettre en œuvre un chatbot pour fournir de nouvelles services à ces clients dans sa démarche de digitalisation de sa relation client.
