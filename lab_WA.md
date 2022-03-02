@@ -1,6 +1,6 @@
 # Scénario du Workshop 1 : Société de vente de café
 
-**** Attention Il faut être en mode "Expérience Classique" **** Description ![ici](/images/experience.png)
+**** Attention Il faut être en mode "Expérience Classique" **** Description ![ici](/experience.md)
 
 Bonjour,
 
