@@ -111,7 +111,81 @@ Maintenant que nous avons notre première action, nous pouvons commencer à la t
 
 ### Prévisualisez votre première conversation
 
-Dans chaque environnement d'assistant virtuel, vous recevrez une version brouillon et en direct. Cela vous permet
-pour travailler la version non-live et publier les mises à jour au besoin une fois testées dans le brouillon. Tester votre brouillon
+Dans chaque environnement d'assistant virtuel, vous avez une version brouillon et en direct. Cela vous permet
+pour travailler la version de non production et publier les mises à jour au besoin une fois testées dans le brouillon. Tester votre brouillon
 version se produit dans l'aperçu. L'aperçu vous permettra de voir toutes les actions que vous avez créées. Pour y accéder, cliquez sur
-sur le bouton Aperçu de la page de navigation.
+sur le bouton Preview/Aperçu de la page de navigation.
+
+![ptech logo](/images/lab_banque_16.png)
+
+Cela vous mènera à la page d'aperçu où vous pourrez tester votre assistant virtuel pour voir quels clients
+l'expérience ressemblerait. Il est livré avec un brouillon de discussion en ligne que vous pouvez utiliser pour tester l'action que nous avons créée.
+
+![ptech logo](/images/lab_banque_17.png)
+
+Allez-y et tapez "qu'est-ce que le CVV" dans le panneau Type Something et vous verrez l'assistant virtuel
+en parcourant l'action que vous avez créée.
+
+![ptech logo](/images/lab_banque_18.png)
+
+Étant donné que nous aimons l'apparence de cette action, nous sommes maintenant prêts à publier cette expérience brouillon et à la mettre en ligne.
+
+## Publiez votre première conversation et passez en direct
+
+Une fois l'expérience de brouillon finalisée, nous pouvons publier les modifications dans l'environnement en direct, puis
+déployer l'assistant virtuel Live sur un canal numérique via un Webchat.
+
+### Publiez votre première conversation
+
+Dans la barre de navigation de gauche, cliquez sur le bouton Publish/Publier
+
+![ptech logo](/images/lab_banque_19.png)
+
+C'est ici que vous publiez vos modifications de contenu de brouillon à en direct. Dans ce scénario, vous pouvez publier les 4
+Actions (3 prédéfinies et 1 créée par vous) en cliquant sur le bouton Publish/Publier en haut. Similaire à la gestion des versions de code
+vous pouvez fournir une description pour aider à identifier le contenu de cette version. Dans le champ de description V1 fourni
+vous pouvez taper - "Ma première action"
+
+![ptech logo](/images/lab_banque_20.png)
+
+Cliquez ensuite sur Publier et vous verrez votre assistant virtuel V1 publié en mode Live.
+
+![ptech logo](/images/lab_banque_21.png)
+
+Maintenant que vous avez publié vos modifications dans Live, nous pouvons continuer et configurer vos intégrations de chaîne afin que vous
+pouvez tester votre assistant Live sur un faux site Web.
+
+### Configurez l'intégration de votre canal Webchat
+
+Avec la V1 de votre bot bancaire Live, vous pouvez continuer et configurer une intégration de canal numérique à l'aide du Webchat prédéfini. Pour ce faire, regardez la barre de navigation de gauche et cliquez sur Connecter.
+
+![ptech logo](/images/lab_banque_22.png)
+
+Dans cet écran, vous verrez les intégrations de canal et de back-end que votre assistant virtuel Draft et Live
+sont connectés. Vous pouvez basculer entre Draft et Live en le sélectionnant dans le menu déroulant. Faites attention
+attention à l'environnement dans lequel vous vous trouvez.
+
+![ptech logo](/images/lab_banque_23.png)
+
+Notez que la version 1 (V1) de vos Actions que vous avez Publié est connectée à votre assistant virtuel Live
+et est connecté à votre chat Web en direct. Vous pouvez cliquer sur l'intégration du canal Webchat pour le personnaliser.
+
+![ptech logo](/images/lab_banque_24.png)
+
+Dans le panneau de personnalisation du webchat, vous pouvez modifier plusieurs éléments (style, écran d'accueil, suggestions, etc.).
+N'hésitez pas à jouer avec le nom de votre assistant et les couleurs primaires et secondaires.
+
+![ptech logo](/images/lab_banque_25.png)
+
+Cliquez sur « Écran d'accueil » et modifiez le message d'accueil et les trois amorces de conversation.
+• Message d'accueil : Salut ! Je suis l'assistante virtuelle de DTE Bank. Comment puis-je vous aider aujourd'hui?
+• Initiateur de conversation 1 : Qu'est-ce que le CVV ?
+• Initiateur de conversation 2 : Vérifier le solde de mon compte ?
+• Initiateur de conversation 3 : Utiliser ma carte dans d'autres pays
+
+![ptech logo](/images/lab_banque_26.png)
+
+Nous sommes maintenant prêts à intégrer le webchat dans un faux site Web. Pour ce faire, suivez ces 3 étapes simples :
+• Cliquez sur Intégrer et copiez l'extrait de code Javascript en cliquant sur "Copier dans le presse-papiers"
+bouton sur le côté droit. Après cela, assurez-vous de cliquer sur le bouton "Enregistrer et quitter" sur
+le côté droit de l'écran.
