@@ -186,6 +186,21 @@ Cliquez sur « Écran d'accueil » et modifiez le message d'accueil et les tro
 ![ptech logo](/images/lab_banque_26.png)
 
 Nous sommes maintenant prêts à intégrer le webchat dans un faux site Web. Pour ce faire, suivez ces 3 étapes simples :
+
 • Cliquez sur Intégrer et copiez l'extrait de code Javascript en cliquant sur "Copier dans le presse-papiers"
 bouton sur le côté droit. Après cela, assurez-vous de cliquer sur le bouton "Enregistrer et quitter" sur
 le côté droit de l'écran.
+
+![ptech logo](/images/lab_banque_27.png)
+
+• Téléchargez les fichiers "dte_bank_bg.png" et "LabHTML.html" depuis le dossier
+
+• Faites un clic droit sur le fichier "LabHTML.html" et sélectionnez un éditeur de texte pour ouvrir le fichier, puis
+remplacez le "<script> ….</script>" par ce que vous avez copié de la section Embed.
+
+![ptech logo](/images/lab_banque_28.png)
+
+Vous pouvez maintenant enregistrer et fermer le fichier « LabHTML.html ». Une fois fermé, double-cliquez dessus pour ouvrir un html local
+restitution du site DTE Bank avec votre assistant virtuel Live !
+
+![ptech logo](/images/lab_banque_29.png)
