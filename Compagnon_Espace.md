@@ -25,6 +25,8 @@ Compte IBM Cloud: Le catalogue de IBM cloud fournit des solutions cloud à parti
 
 Tout d'abord, nous voulons donner un nom à notre compagnon spatial!
 
+**** Attention Il faut être en mode "Expérience Classique" **** Description [ici](/experience.md)
+
 ### Watson Assistant - Message de bienvenue ###
 
 1. Accédez à la section **Dialog/Dialogue** et cliquez sur **Create Dialog/Créer une boîte de dialogue**. Vous verrez comment une arborescence de dialogue de base se construit.
