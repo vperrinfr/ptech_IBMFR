@@ -72,9 +72,14 @@ de retour avec la bonne réponse.
 
 ![ptech logo](/images/lab_banque_91.png)
 
-À tout moment, vous pouvez cliquer sur le panneau "Le client commence par" pour inclure des exemples de questions supplémentaires qui
-aidera l'assistant virtuel à comprendre quelle action l'utilisateur essaie d'entreprendre (surtout si vous avez un
-beaucoup d'actions). Allez-y et incluez 3 à 5 autres exemples comme indiqué ci-dessous.
+À tout moment, vous pouvez cliquer sur le panneau "Customer start with/Le client commence par" pour inclure des exemples de questions supplémentaires qui
+aidera l'assistant virtuel à comprendre quelle action l'utilisateur essaie d'entreprendre (surtout si vous avez un beaucoup d'actions). 
+Allez-y et incluez 3 à 5 autres exemples comme indiqué ci-dessous.
+
+1. Où se trouve le CVV ?
+2. Je n'ai aucune idée de la signification du CVV ?
+3. Peux-tu m'expliquer le CVV ?
+4. ...
 
 ![ptech logo](/images/lab_banque_10.png)
 
