@@ -80,3 +80,50 @@ Mettez ensuite en gras les deux variables.
   - Le flux devrait ressembler à ceci :
 
 ![ptech logo](/images/lab_banque_41.png)
+
+Nous voulons ensuite poser une question Oui/Non
+Sélectionnez Options comme type de réponse client
+
+![ptech logo](/images/lab_banque_43.png)
+
+  - Tapez "Oui" pour l'option 1 avec les synonymes "Ok" "yeah" et "yup" (c'est au cas où quelqu'un
+tape une réponse)
+  - Tapez "Non" pour l'option 2 avec les synonymes "nope" et "nah"
+  - Nous ne voulons pas que cette étape soit ignorée car nous avons besoin d'une confirmation ici - alors sélectionnez "Always
+ask for this information, regardless of earlier messages/Toujours demandez ces informations, quels que soient les messages précédents et appuyez sur Appliquer".
+
+![ptech logo](/images/lab_banque_44.png)
+
+Nous allons maintenant passer à l'étape suivante
+  - Sélectionnez que l'étape 4 est prise avec des conditions
+  - Condition 1 : Si 3. est Oui, alors…
+      o Ce que je veux faire dans la section Réponses de l'assistant ici est un lien vers l'application avec le contexte
+      o L'assistant de type dit "Parfait, terminons le transfert directement dans notre application où nous allons
+      rassembler les informations de votre compte et la destination du transfert. Clique ici pour continuer."
+
+![ptech logo](/images/lab_banque_45.png)
+
+Ensuite, mettez en surbrillance le texte "Cliquez ici pour continuer" et choisissez de lier l'utilisateur directement dans
+l'application avec un peu de contexte
+
+![ptech logo](/images/lab_banque_46.png)
+
+Imaginons que vous ayez une URL pour mon application et tapez
+"dtebank.com/transfer" dans la zone URL
+
+![ptech logo](/images/lab_banque_47.png)
+
+A terme, au lieu de l'étape théorique ci-dessus, nous aurons la possibilité d'insérer
+variables ici, par exemple, le montant et la date et illustrées ci-dessous, afin que vous puissiez passer
+paramètres spécifiques avec les détails des utilisateurs dans l'application (des instructions seront ajoutées sur
+comment faire une fois que la capacité est disponible)
+
+![ptech logo](/images/lab_banque_48.png)
+
+  - Sélectionnez Appliquer
+  - Enfin, à cette étape, nous voulons que "And then/Et ensuite" soit Terminer l'action, veuillez donc sélectionner cette
+option. Le but est d'expliquer clairement au composant d'analyse de l'assistant
+que l'action est terminée et terminée. Vous pouvez alors comprendre les performances de
+cette action.
+
+![ptech logo](/images/lab_banque_49.png)
