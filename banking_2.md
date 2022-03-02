@@ -51,11 +51,32 @@ le type.
 
 Maintenant, nous ajoutons la troisième étape sous la deuxième étape, une confirmation rapide. Et si l'utilisateur dit oui, nous allons
 envoyez-les à l'application de manière contextuelle (lien profond vers l'application) afin qu'ils puissent terminer le processus de transfert.
-o L'assistant dit "Pour confirmer, vous voulez transférer"
-o Sélectionnez la variable d'action (ou tapez le signe "$" pour faire apparaître le sélecteur de variable)
+
+  - L'assistant dit "Pour confirmer, vous voulez transférer"
+  - Sélectionnez la variable d'action (ou tapez le signe "$" pour faire apparaître le sélecteur de variable)
 
 ![ptech logo](/images/lab_banque_37.png)
 
-o Ajoutez un "$" après "transfert" OU tapez comme indiqué ci-dessous
+  - Sélectionnez 2. "Combien voulez-vous transférer ?"
 
-o Sélectionnez 2. Combien voulez-vous transférer ?
+![ptech logo](/images/lab_banque_38.png)
+
+  - Ajoutez un "$" après "transfert" OU tapez comme indiqué ci-dessous
+
+![ptech logo](/images/lab_banque_39.png)
+
+![ptech logo](/images/lab_banque_40.png)
+
+Ajouter « à quelle date » après « 2. Combien voulez-vous transférer ? »
+
+![ptech logo](/images/lab_banque_42.png)
+
+  - Choisissez à nouveau la variable d'action
+
+![ptech logo](/images/lab_banque_37.png)
+
+  - Cette fois, sélectionnez 1. Quand souhaitez-vous effectuer le transfert ? et ajoutez un "?" à la fin.
+Mettez ensuite en gras les deux variables.
+  - Le flux devrait ressembler à ceci :
+
+![ptech logo](/images/lab_banque_41.png)
