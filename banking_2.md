@@ -39,3 +39,23 @@ taper.
 ![ptech logo](/images/lab_banque_34.png)
 ![ptech logo](/images/lab_banque_35.png)
 
+Nous pouvons maintenant passer à la création de l'étape suivante pour capturer la réponse de l'utilisateur. Cliquez sur le bouton Nouvelle étape sur le
+en bas à gauche de l'écran. Nous allons configurer notre prochaine étape.
+
+Pour l'étape 2, sans conditions, saisissez ce qui suit dans la zone de l'assistant : "Combien voulez-vous
+transfert?"
+Nous définirons les options de réponse en cliquant sur "Définir la réponse du client" et en sélectionnant Devise comme
+le type.
+
+![ptech logo](/images/lab_banque_36.png)
+
+Maintenant, nous ajoutons la troisième étape sous la deuxième étape, une confirmation rapide. Et si l'utilisateur dit oui, nous allons
+envoyez-les à l'application de manière contextuelle (lien profond vers l'application) afin qu'ils puissent terminer le processus de transfert.
+o L'assistant dit "Pour confirmer, vous voulez transférer"
+o Sélectionnez la variable d'action (ou tapez le signe "$" pour faire apparaître le sélecteur de variable)
+
+![ptech logo](/images/lab_banque_37.png)
+
+o Ajoutez un "$" après "transfert" OU tapez comme indiqué ci-dessous
+
+o Sélectionnez 2. Combien voulez-vous transférer ?
