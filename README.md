@@ -18,7 +18,8 @@ Ce cours a vocation à faire découvrir l'intelligence artificielle aux lycéens
 - Watson Assistant :
     1. [Vente de café](lab_WA.md)
     2. [Compagnon spatial](Compagnon_Espace.md)
-    3. [Tips](tips_WA.md)
+    3. [Assistant Bancaire](banking.md) - New Experience:ACTIONS
+    4. [Tips](tips_WA.md)
 
 # Concepteurs du cours
 @vperrinfr - IBM
