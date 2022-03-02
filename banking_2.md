@@ -127,3 +127,44 @@ que l'action est terminée et terminée. Vous pouvez alors comprendre les perfor
 cette action.
 
 ![ptech logo](/images/lab_banque_49.png)
+
+Nous voulons ensuite ajouter une dernière étape
+  - Sélectionnez que l'étape 5 est prise avec des conditions
+  - Condition 1 : Si 3. est Non, alors…
+  - Dans l'assistant dit, saisissez : "Recommençons".
+
+![ptech logo](/images/lab_banque_50.png)
+
+Enfin, dans le champ Et puis, sélectionnez Re-demander les étapes précédentes
+
+![ptech logo](/images/lab_banque_51.png)
+
+Sélectionnez les étapes 1 à 4 pour recommencer et appuyez sur Appliquer
+
+![ptech logo](/images/lab_banque_52.png)
+
+Enfin, appuyez sur Save/Enregistrer !
+Vous avez maintenant terminé de créer notre action - et êtes prêt à la tester avec les fonctionnalités de prévisualisation !
+Vous ne pourrez pas démontrer à quel point cet assistant construit rapidement est vraiment puissant
+
+## Aperçu de l'action
+
+Maintenant que vous avez réussi à créer une action avancée, laissez-nous aller de l'avant et essayez-la ! Plutôt
+plutôt que d'utiliser la page d'aperçu cette fois, sélectionnez le bouton Aperçu dans le coin inférieur droit
+
+![ptech logo](/images/lab_banque_53.png)
+
+Tapez "Je veux transférer de l'argent" et vous pouvez voir qu'il commence à suivre le flux qui nous avons mis en place.
+
+![ptech logo](/images/lab_banque_54.png)
+
+Répondre "demain"
+Répondez "450 $"
+Sélectionnez Oui
+
+![ptech logo](/images/lab_banque_55.png)
+
+Appuyez sur Actualiser
+
+![ptech logo](/images/lab_banque_56.png)
+
