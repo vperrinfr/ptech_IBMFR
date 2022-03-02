@@ -15,11 +15,14 @@ Ce cours a vocation à faire découvrir l'intelligence artificielle aux lycéens
 - [Cours](https://ibm.box.com/s/lz2zkwdap6aigrcfgd0zgdn7fzratv7p) (Accès sur demande)
 
 ### Labs 
-- Watson Assistant :
+- Watson Assistant Mode Classique  :
     1. [Vente de café](lab_WA.md)
     2. [Compagnon spatial](Compagnon_Espace.md)
-    3. [Assistant Bancaire](banking.md) - New Experience:ACTIONS
-    4. [Tips](tips_WA.md)
+    3. [Tips](tips_WA.md)
+
+- Watson Assistant Mode Actions :
+    1. [Assistant Bancaire - Etape 1](banking.md)
+    2. [Assistant Bancaire - Etape 2](banking_2.md)
 
 # Concepteurs du cours
 @vperrinfr - IBM
