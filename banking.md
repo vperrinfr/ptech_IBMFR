@@ -78,27 +78,35 @@ beaucoup d'actions). Allez-y et incluez 3 à 5 autres exemples comme indiqué ci
 
 ![ptech logo](/images/lab_banque_11.png)
 
+Vous pouvez ensuite cliquer sur Enregistrer dans le coin supérieur droit pour enregistrer vos modifications, puis les tester dans l'aperçu.
+panneau.
+
+![ptech logo](/images/lab_banque_12.png)
+
 Il faudra quelques secondes à l'assistant virtuel pour s'entraîner, puis vous serez prêt à poser différentes questions.
 variations pour cette action. Essayez de le tester avec une nouvelle variante : j'essaie de trouver le CVV. Vous remarquerez que
 l'assistant virtuel utilise l'IA pour le mapper à la bonne séquence d'actions et d'étapes.
 
-![ptech logo](/images/lab_banque_12.png)
+![ptech logo](/images/lab_banque_13.png)
 
 Nous pouvons maintenant fermer cette page (cliquez sur le bouton "X" en haut à droite).
 
-![ptech logo](/images/lab_banque_13.png)
+![ptech logo](/images/lab_banque_14.png)
 
 Nous sommes maintenant revenus à la page principale des actions où vous verrez la liste des actions que vous avez créées.
 
-![ptech logo](/images/lab_banque_14.png)
+![ptech logo](/images/lab_banque_15.png)
 
-Vous remarquerez que l'assistant est livré avec quelques actions prédéfinies sous "Défini par l'assistant" - telles que
+Vous remarquerez que l'assistant est livré avec quelques actions prédéfinies sous "Set by Assistant/Défini par l'assistant" - telles que
 Accueillir le client. À tout moment, vous pouvez modifier ces actions et les personnaliser à votre goût.
 
-![ptech logo](/images/lab_banque_15.png)
+![ptech logo](/images/lab_banque_16.png)
 
 Maintenant que nous avons notre première action, nous pouvons commencer à la tester dans notre environnement de prévisualisation (brouillon).
 
-Vous pouvez ensuite cliquer sur Enregistrer dans le coin supérieur droit pour enregistrer vos modifications, puis les tester dans l'aperçu.
-panneau.
+### Prévisualisez votre première conversation
 
+Dans chaque environnement d'assistant virtuel, vous recevrez une version brouillon et en direct. Cela vous permet
+pour travailler la version non-live et publier les mises à jour au besoin une fois testées dans le brouillon. Tester votre brouillon
+version se produit dans l'aperçu. L'aperçu vous permettra de voir toutes les actions que vous avez créées. Pour y accéder, cliquez sur
+sur le bouton Aperçu de la page de navigation.
