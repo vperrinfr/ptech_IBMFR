@@ -17,7 +17,7 @@ Dans ce tutorial, nous allons créer une page Web et ajouter le code pour réali
 3. Cliquer sur Create (Créer)
 4. Aller dans l'onglet **Embed**
 
-![ptech logo](/images/embed1.png)
+![ptech logo](/images/embed2.png)
 
 6. Copier dans le presse-papier le code.
 
