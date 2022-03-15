@@ -19,6 +19,7 @@ Ce cours a vocation à faire découvrir l'intelligence artificielle aux lycéens
     1. [Vente de café](lab_WA.md)
     2. [Compagnon spatial](Compagnon_Espace.md)
     3. [Tips](tips_WA.md)
+    4. [Intégration dans une page Web](web.md)
 
 - Watson Assistant Mode Actions :
     1. [Assistant Bancaire - Etape 1](banking.md)
