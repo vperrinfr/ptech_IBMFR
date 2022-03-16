@@ -20,6 +20,7 @@ Ce cours a vocation à faire découvrir l'intelligence artificielle aux lycéens
     2. [Compagnon spatial](Compagnon_Espace.md)
     3. [Tips](tips_WA.md)
     4. [Intégration dans une page Web](web.md)
+    5. [Intégration avec Discord](discord.md)
 
 - Watson Assistant Mode Actions :
     1. [Assistant Bancaire - Etape 1](banking.md)
