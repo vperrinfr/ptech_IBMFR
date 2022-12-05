@@ -155,7 +155,7 @@ Cliquez ensuite sur Publier et vous verrez votre assistant virtuel V1 publié en
 Maintenant que vous avez publié vos modifications dans Live, nous pouvons continuer et configurer vos intégrations de chaîne afin que vous
 pouvez tester votre assistant Live sur un faux site Web.
 
-### Configurez l'intégration de votre canal Webchat
+### (Optionnel) Configurez l'intégration de votre canal Webchat
 
 Avec la V1 de votre bot bancaire Live, vous pouvez continuer et configurer une intégration de canal numérique à l'aide du Webchat prédéfini. Pour ce faire, regardez la barre de navigation de gauche et cliquez sur Connecter.
 
