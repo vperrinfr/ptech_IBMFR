@@ -1,4 +1,4 @@
-# Cours Introduction Machine Learning (classe terminal)
+# Cours - Introduction Machine Learning (classe terminal) sur 3 séances
 
 ## Semaine 1
 - Rappel du cours d’introduction à l’intelligence artificielle
