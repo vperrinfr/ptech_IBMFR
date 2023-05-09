@@ -10,6 +10,7 @@ Ce cours a vocation à faire découvrir l'intelligence artificielle aux lycéens
 - [Planning 2020](planning_2020.md)
 - [Planning 2021](planning_2021.md)
 - [Planning 2022](Planning_2002.md)
+- [Planning 2023](Planning_2003.md)
 
 ### Cours 
 - [Cours](https://ibm.box.com/s/lz2zkwdap6aigrcfgd0zgdn7fzratv7p) (Accès sur demande)
